@@ -1,0 +1,3 @@
+fct_orders and dim_customers rebuild hourly in full; switching them to incremental is likely the fastest win.
+CI spends $38K a year, almost a tenth of query compute; trimming CI data by date usually halves that.
+LOOKER_WH sits idle a third of the time between dashboard refreshes; consolidating it with ANALYST_WH removes most of that.

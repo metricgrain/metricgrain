@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# never commit real client output
+**/scan.csv
+*_client*.csv
+*.pdf
+!**/examples/sample_report.pdf

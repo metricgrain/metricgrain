@@ -1,0 +1,46 @@
+SECTION,RANK,ITEM,DETAIL,USD_PER_YEAR
+Summary,1,Estimated annual Snowflake spend,"Last 30 days, annualized",412000
+Summary,2,Estimated savings potential (low),Measured by this scan,61000
+Summary,3,Estimated savings potential (high),Adds query tuning not measured here (5% of warehouse spend),79000
+Summary,4,Idle compute,21% of warehouse credits billed with no query running,74000
+Summary,5,Spend growth,3.2% per month over the last 6 months,498000
+Summary,6,Prices used,"$2.40/credit, $23.00/TB-month (your contract rates)",
+Spend mix,1,Warehouses,,356000
+Spend mix,2,Storage,,41000
+Spend mix,3,Serverless & AI,,15000
+Trend,1,2026-04,Monthly compute & services spend,322000
+Trend,2,2026-05,Monthly compute & services spend,336000
+Trend,3,2026-06,Monthly compute & services spend,349000
+Trend,4,2026-07,Monthly compute & services spend,355000
+Trend,5,2026-08,Monthly compute & services spend,366000
+Trend,6,2026-09,Monthly compute & services spend,377000
+Focus areas,1,Idle time: warehouse consolidation & scheduling,Estimated annual savings,19000
+Focus areas,2,CI & dev workloads,Estimated annual savings,17000
+Focus areas,3,Top 10 dbt models,Estimated annual savings,13000
+Focus areas,4,Idle time: auto-suspend settings,Estimated annual savings,8000
+Focus areas,5,Warehouse sizing,Estimated annual savings,3000
+Focus areas,6,Storage history (Time Travel / Fail-safe),Estimated annual savings,1000
+By tool,1,dbt,Query compute,171000
+By tool,2,Looker,Query compute,48000
+By tool,3,Fivetran,Query compute,22000
+By tool,4,Snowsight (people),Query compute,19000
+By tool,5,Python / notebooks,Query compute,12000
+By tool,6,Other,Query compute,6000
+By environment,1,Production,Query compute,214000
+By environment,2,CI,Query compute,38000
+By environment,3,Dev & ad hoc,Query compute,26000
+Top dbt models,1,model.analytics.fct_orders,1440 runs in 30 days,21000
+Top dbt models,2,model.analytics.fct_sessions,720 runs in 30 days,14000
+Top dbt models,3,model.analytics.dim_customers,1440 runs in 30 days,9000
+Top dbt models,4,model.marketing.attribution_daily,30 runs in 30 days,7000
+Top dbt models,5,model.finance.revenue_recognition,30 runs in 30 days,6000
+Top dbt models,6,model.analytics.fct_events,1440 runs in 30 days,5000
+Top dbt models,7,model.product.feature_usage,720 runs in 30 days,4000
+Top dbt models,8,model.analytics.int_order_items,1440 runs in 30 days,3000
+Top dbt models,9,model.marketing.campaign_rollup,30 runs in 30 days,3000
+Top dbt models,10,model.analytics.snapshot_accounts,30 runs in 30 days,2000
+Top idle warehouses,1,LOOKER_WH,Billed while no query ran,24000
+Top idle warehouses,2,TRANSFORM_WH,Billed while no query ran,17000
+Top idle warehouses,3,CI_WH,Billed while no query ran,11000
+Top idle warehouses,4,ANALYST_WH,Billed while no query ran,9000
+Top idle warehouses,5,FIVETRAN_WH,Billed while no query ran,6000

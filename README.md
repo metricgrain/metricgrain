@@ -12,7 +12,7 @@ We help data teams spend less on Snowflake and get more trustworthy answers out 
 
 ## Free tools
 
-- [**snowflake-cost-scan**](https://github.com/metricgrain/snowflake-cost-scan): one read-only SQL script that shows where your Snowflake money goes and how much you could save. About 2 minutes to run.
+- [**snowflake-cost-scan**](snowflake-cost-scan/): one read-only SQL script that shows where your Snowflake money goes and how much you could save. About 2 minutes to run.
 
 ## Track record
 
