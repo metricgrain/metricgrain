@@ -6,7 +6,7 @@ We help data teams spend less on Snowflake and get more trustworthy answers out 
 
 ## What we do
 
-- **Snowflake cost audits.** Every fix priced in dollars per year, ranked by payback, quick wins applied. We save you at least 2x our fee.
+- **Snowflake cost audits.** Every fix priced in dollars per year, ranked by payback, quick wins applied.
 - **Semantic layers and dimensional models.** dbt Semantic Layer on top of Kimball models, so dashboards and AI tools agree on every number.
 - **AI analytics.** Natural-language analytics and MCP servers built on governed metrics, with evaluation sets that measure answer accuracy.
 

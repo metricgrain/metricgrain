@@ -64,8 +64,6 @@ The high end of the range adds 5% of warehouse spend for query tuning the scan d
 
 The scan shows where the money goes. A full Metricgrain cost audit shows why, prices every fix in dollars per year, ranks them by payback, and applies the quick wins with you.
 
-**$2,500 fixed, 5 business days. I save you at least 2x my fee in annual savings.**
-
 Send your scan CSV to **hello@metricgrain.com** for a free 30-minute walkthrough.
 
 ## License

@@ -209,8 +209,8 @@ def build(csv_path, client, out, notes_path=None):
             ], [3.45 * inch, 3.45 * inch]),
             Spacer(1, 8),
             Paragraph(
-                f"<b>Full audit: $2,500 fixed, 5 business days.</b> Guarantee: I save you at least 2x my fee in annual "
-                f"savings. This scan already points to {k(low)}+ a year, {low / 2500:.0f}x the fee.", BODY),
+                f"This scan already points to <b>{k(low)}+ a year</b> in savings. The full audit turns it into a "
+                f"ranked, step-by-step plan. Questions: hello@metricgrain.com", BODY),
         ]),
         Spacer(1, 10),
         Paragraph(
