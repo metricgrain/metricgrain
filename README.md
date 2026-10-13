@@ -1,6 +1,10 @@
+<img src="assets/logo-256.png" alt="Metricgrain" width="96" align="left">
+
 # Metricgrain
 
 **Snowflake cost, data modeling and AI analytics for teams that live in the warehouse.**
+
+<br clear="left">
 
 We help data teams spend less on Snowflake and get more trustworthy answers out of it.
 
