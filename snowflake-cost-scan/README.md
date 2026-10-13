@@ -4,7 +4,9 @@ Find out where your Snowflake money goes, and roughly how much of it you could s
 
 One read-only SQL script. No installs, no account access for anyone else, no data leaves your account unless you choose to share the result.
 
-![Sample report](examples/sample_report.png)
+[![Sample report](examples/sample_report.png)](examples/sample_report.pdf)
+
+*Sample output on made-up data. [Full 2-page report (PDF)](examples/sample_report.pdf).*
 
 ## What it tells you
 
