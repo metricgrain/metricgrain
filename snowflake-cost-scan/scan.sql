@@ -1,5 +1,5 @@
 -- =============================================================================
--- Snowflake Cost Scan v0.3.2 by Metricgrain (https://metricgrain.com)
+-- Snowflake Cost Scan v0.3.2 by Metricgrain (https://github.com/metricgrain)
 --
 -- Read-only. Reads Snowflake's own usage metadata (SNOWFLAKE.ACCOUNT_USAGE,
 -- and ORGANIZATION_USAGE rates if your role can see them) plus SHOW WAREHOUSES.

@@ -210,7 +210,7 @@ def build(csv_path, client, out, notes_path=None):
             Spacer(1, 8),
             Paragraph(
                 f"This scan already points to <b>{k(low)}+ a year</b> in savings. The full audit turns it into a "
-                f"ranked, step-by-step plan. Questions: hello@metricgrain.com", BODY),
+                f"ranked, step-by-step plan. Questions: metricgraindata@gmail.com", BODY),
         ]),
         Spacer(1, 10),
         Paragraph(

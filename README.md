@@ -22,4 +22,4 @@ We help data teams spend less on Snowflake and get more trustworthy answers out 
 
 ## Contact
 
-hello@metricgrain.com · [metricgrain.com](https://metricgrain.com)
+metricgraindata@gmail.com · [github.com/metricgrain](https://github.com/metricgrain)
