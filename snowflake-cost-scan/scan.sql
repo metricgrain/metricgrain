@@ -1,5 +1,5 @@
 -- =============================================================================
--- Snowflake Cost Scan v0.3.2 by Metricgrain (https://github.com/metricgrain)
+-- Snowflake Cost Scan v0.3.3 by Metricgrain (https://github.com/metricgrain)
 --
 -- Read-only. Reads Snowflake's own usage metadata (SNOWFLAKE.ACCOUNT_USAGE,
 -- and ORGANIZATION_USAGE rates if your role can see them) plus SHOW WAREHOUSES.
@@ -83,10 +83,10 @@ BEGIN
             credits,
             warehouse_name,
             user_name,
-            COALESCE(REGEXP_SUBSTR(qt, '"node_id": ?"([^"]+)"', 1, 1, 'e'),
-                     REGEXP_SUBSTR(query_tag, '"node_id": ?"([^"]+)"', 1, 1, 'e'))     AS dbt_node,
-            LOWER(COALESCE(REGEXP_SUBSTR(qt, '"target_name": ?"([^"]+)"', 1, 1, 'e'),
-                           REGEXP_SUBSTR(query_tag, '"target_name": ?"([^"]+)"', 1, 1, 'e'), '')) AS dbt_target,
+            COALESCE(REGEXP_SUBSTR(qt, '"node_id": ?"([^" ]+)"', 1, 1, 'e'),
+                     REGEXP_SUBSTR(query_tag, '"node_id": ?"([^" ]+)"', 1, 1, 'e'))     AS dbt_node,
+            LOWER(COALESCE(REGEXP_SUBSTR(qt, '"target_name": ?"([^" ]+)"', 1, 1, 'e'),
+                           REGEXP_SUBSTR(query_tag, '"target_name": ?"([^" ]+)"', 1, 1, 'e'), '')) AS dbt_target,
             CASE
                 WHEN qt ILIKE '%"app": "dbt"%' OR qt ILIKE '%"app":"dbt"%' OR query_tag ILIKE '%dbt%'            THEN 'dbt'
                 WHEN qt ILIKE '%Looker Query Context%' OR user_name ILIKE '%LOOKER%' THEN 'Looker'
